@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ram Shindijamekar Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+		<link rel="icon" type="image/png" href="assets/fevicon_1.png">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Ram Shindijamekar</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ram Shindijamekar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/ram_image_7.png" alt="Ram's profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ram Shindijamekar</h1>
+        <p class="section__text__p2">"Passionate aspiring machine learning practitioner, dedicated to continuous learning, contributing to impactful projects, and carving a niche in this dynamic field."
+
+        </p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Ram_Shindijamekar_ML.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/ram-shindijamekar/', '_blank')"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/ramshindijamekar', '_blank')"
+          />
+          <!--
+          <style>
+            .circular-icon {
+              border-radius: 50%;
+              overflow: hidden;
+            }
+          </style>
+          -->
+          <img
+            src="./assets/pdf_icon.jpeg"
+            alt="PDF Icon"
+            class="icon circular-icon"
+            onclick="window.open('assets/Ram_Shindijamekar_ML.pdf', '_blank')"
+          />
+        </div>
+        
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <!--
+        <div class="section__pic-container">
+            
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+          
+        </div>
+          -->
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6+ months <br />Data Analytics</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Engineering <br /> Shri Sant Gajanan Maharaj College Of Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            
+              <p>
+
+              I'm Ram Shindijamekar, an Electronics and Telecommunication Engineer with a Bachelor's degree from Shri Sant Gajanan Maharaj College Of Engineering. 
+              Passionate about machine learning and data science, I bring a solid engineering foundation and a curious mindset. 
+              My expertise includes statistical analysis, predictive modeling, and advanced ML algorithms. 
+              Proficient in Python, SQL, data visualization, and MLOps, I excel in transforming data into actionable insights. 
+              Eager for continuous learning, I thrive in collaborative environments. Outside work, I enjoy sketching, exploring automotive tech, stargazing, cycling, and playing badminton. 
+              <br />Let's connect via email or LinkedIn for a data-driven journey together!
+
+              </p>
+
+            <!--
+              I'm Ram Shindijamekar, an Electronics and Telecommunication Engineer armed with a Bachelor's degree from Shri Sant Gajanan Maharaj College Of Engineering. 
+              With a passion for exploring the endless possibilities of machine learning and data science, 
+              I bring a solid foundation in engineering principles and a curiosity-driven mindset to the table. 
+              Professionally, my expertise spans statistical analysis, predictive modeling, and the application of advanced ML algorithms. 
+              Proficient in Python, SQL, data visualization, and MLOps, I thrive on transforming raw data into actionable insights that shape decision-making. 
+              Dedicated to continuous learning, I thrive in collaborative environments where creativity and problem-solving meet technology. 
+              Outside of my professional endeavors, I indulge in various interests such as sketching, exploring automotive technology, stargazing, cycling, and engaging in spirited games of badminton. 
+              I'm eager to connect with fellow data enthusiasts, so feel free to reach out to me via email or connect with me on LinkedIn. 
+              Let's embark on a data-driven journey together!
+              -->
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+    </section>
+
+
+
+
+
+
+
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/Python.jpeg"
+                  alt="Python icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/data science.jpeg"
+                  alt="Data Science icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Data Science</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ML.jpeg"
+                  alt="Machine Learning icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Machine Learning</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/mlops.png"
+                  alt="MLOps icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>MLOps</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Deep Learning.jpeg"
+                  alt="Deep Learning icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                  <p></p>
+                </div>
+              </article>
+              <!-- Include more skill articles here -->
+              <article>
+                <img
+                  src="./assets/data analytics.jpeg"
+                  alt="Data Analytics icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Data Analytics</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Microsoft Excel.jpeg"
+                  alt="Microsoft Excel icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Microsoft Excel</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/MySQL.jpeg"
+                  alt="MySQL icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Power BI.jpeg"
+                  alt="Docker icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Statistical Analysis.jpeg"
+                  alt="Statistical Analysis icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Statistical Analysis</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/scikit learn.jpg"
+                  alt="Jenkins icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Scikit Learn</h3>
+                  <p></p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/jenkins.jpeg"
+                  alt="Jenkins icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Jenkins</h3>
+                  <p></p>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/TensorFlow.jpeg"
+                  alt="Jenkins icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>TensorFlow</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/docker.jpeg"
+                  alt="Power BI icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Docker</h3>
+                  <p></p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/git.jpeg"
+                  alt="Power BI icon"
+                  class="icon large-icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p></p>
+                </div>
+              </article>
+              <!-- Add more skill articles here -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <a href="https://github.com/ramshindijamekar/CourtPredict" target="_blank"> <!-- added anchor tag around image -->
+                <img src="./assets/court predict 1.jpeg" alt="Race Track ML" class="project-img" />
+              </a>
+            </div>
+            <h2 class="experience-sub-title project-title" ">COURT PREDICT: NCAA <br />TOURNAMENT SHOWDOWN</h2>
+            <div class="btn-container">
+              <details>
+                <summary class="btn btn-color-2 project-btn">Details</summary>
+                <p class="project-description">
+                  CourtPredict employs advanced data analytics to forecast NCAA basketball tournament outcomes with remarkable accuracy. 
+                  While I am still in the process of refining the ML models, 
+                  my innovative analytics method helps identify qualifying teams and potential winners, 
+                  providing invaluable insights for basketball fans and analysts alike.
+                </p>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ramshindijamekar/CourtPredict', '_blank')">Github</button>
+              </details>
+            </div>
+          </div>
+          
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <a href="https://github.com/ramshindijamekar/RaceTrackML" target="_blank"> <!-- added anchor tag around image -->
+                <img src="./assets/f1.jpeg" alt="Race Track ML" class="project-img" />
+              </a>
+            </div>
+            <h2 class="experience-sub-title project-title" ">RACE TRACK ML:<br /> F1 DATA INSIGHTS AND PREDICTIVE MODELING</h2>
+            <div class="btn-container">
+              <details>
+                <summary class="btn btn-color-2 project-btn">Details</summary>
+                <p class="project-description">
+                  RaceTrackML delves into F1 racing data using advanced analytics and machine learning. 
+                  It uncovers insights from historical race data and predicts race outcomes. 
+                  Through predictive modeling, it anticipates future trends in the sport. 
+                  RaceTrackML applies data science methodologies to the dynamic world of Formula 1.
+                </p>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ramshindijamekar/RaceTrackML', '_blank')">Github</button>
+              </details>
+            </div>
+          </div>
+          
+
+    
+          <div class="details-container color-container">
+            <div class="article-container">
+              <a href="https://github.com/ramshindijamekar/NeuroDeep" target="_blank"> <!-- added anchor tag around image -->
+                <img src="./assets/BT.jpeg" alt="Race Track ML" class="project-img" />
+              </a>
+            </div>
+            <h2 class="experience-sub-title project-title" ">Neuro Deep:<br /> Brain Tumor Detection with Deep Learning</h2>
+            <div class="btn-container">
+              <details>
+                <summary class="btn btn-color-2 project-btn">Details</summary>
+                <p class="project-description">
+                  During my final year of college, I led a collaborative effort with radiologists to develop a sophisticated neural network model aimed at accurately detecting brain tumors from intricate medical imaging data. 
+                  Our research, culminating in a peer-reviewed publication, significantly advanced the field's understanding and capabilities.
+                </p>
+                <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/ramshindijamekar/NeuroDeep', '_blank')">Github</button>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <section id="contact">
+      <p>       </p>
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:shindijamekar.1101@gmail.com">shindijamekar.1101@gmail.com</a></p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/ram-shindijamekar/" target="_blank">LinkedIn</a></p>
+        </div>
+        
+        <div class="contact-info-container">
+          <img
+            src="./assets/phone.jpeg"
+            alt="Phone icon"
+            class="icon contact-icon"
+          />
+          <p><a href="+91 8530294683">+91 8530294683</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>RAM SHINDIJAMEKAR</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
